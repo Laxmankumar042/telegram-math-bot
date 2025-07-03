@@ -23,7 +23,7 @@ async def calculate(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("❌ Invalid Expression! Please try again with valid math input.")
 
 # Replace 'YOUR_BOT_TOKEN' with your actual bot token
-BOT_TOKEN = '8052792980:AAGRDnyxSplbDRLAY-MwqSQbtMq33A8NSFs'
+BOT_TOKEN = 'os.environ[8052792980:AAGRDnyxSplbDRLAY-MwqSQbtMq33A8NSFs]'
 
 # Main function to run the bot
 def main():
